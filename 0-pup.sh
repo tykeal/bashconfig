@@ -1,0 +1,5 @@
+# PASS configuration
+# only rgrigar, tykeal, jme, or mricon can modify .gpg-id files
+export PASSWORD_STORE_SIGNING_KEY="DE0E66E32F1FDD0902666B96E63EDCA9329DD07E FA4DB93EB9034BBFB8532A263360FFB703A9DA1F 34F95A028B74AEC9425FB7EA8BC411072810846A BE97990E0725D2823F8CA30C1AF4F0C20A358FD0"
+# set a handy alias to update the password store
+alias pup="pass git pull --rebase"
