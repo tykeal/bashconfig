@@ -18,7 +18,8 @@ export PATH
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
-        if [ -f "$rc" ] && [ "$rc" != "${HOME}/.bashrc.d/dot-bashrc" ]; then
+        if [ -f "$rc" ] && [ "$rc" != "${HOME}/.bashrc.d/dot-bashrc" ] \
+	&& [ "$rc" != "${HOME}/.bashrc.d/README.md" ]; then
             . "$rc"
         fi
     done
