@@ -1,6 +1,7 @@
 alias dnf='sudo dnf'
 alias evim='eyaml edit'
-alias vim='vimx'
+alias vim='nvim'
+alias ovim='vimx'
 
 # lftools
 alias lftools='/home/tykeal/venv/lftools/bin/lftools'
