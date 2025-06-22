@@ -16,3 +16,6 @@ alias ssh='TERM=xterm /usr/bin/ssh'
 
 
 alias scorecard='podman run -e GITHUB_AUTH_TOKEN=$(gh auth token) gcr.io/openssf/scorecard:stable --show-details'
+
+# gnome-control-center requires XDG_CURRENT_DESKTOP to be set
+alias gcenter='env XDG_CURRENT_DESKTOP=GNOME gnome-control-center'
